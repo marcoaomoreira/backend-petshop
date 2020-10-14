@@ -5,6 +5,8 @@ bob-builder==0.0.19
 boto==2.49.0
 docopt==0.6.2
 
+$ heroku config:set DISABLE_COLLECTSTATIC=1
+
 django
 gunicorn
 django-heroku
